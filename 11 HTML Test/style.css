@@ -1,0 +1,66 @@
+.boxes {
+    border: solid;
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.text {
+    border: solid;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 300px;
+    width: 460px;
+    position: relative;
+    padding: 20px;
+}
+
+
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: solid;
+    height: 120px;
+    width: 120px;
+    margin: 5%;
+}
+
+.corner {
+    border: solid;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    right: 0px;
+    top: 0px;
+}
+
+ul {
+ list-style: circle;
+ list-style-position: inside;
+}
+
+.boxwel {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 160px;
+    width: 160px;
+    border-left:solid;
+    border-top: solid;
+}
