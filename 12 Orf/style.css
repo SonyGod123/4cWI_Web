@@ -1,0 +1,54 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftmenu{
+    display: flex;
+}
+
+h3 {
+    margin-right: 20px;
+}
+
+.ueberblick {
+    display: inline-flex;
+    
+}
+.imgl {
+    height: 40px;
+    width: auto;
+}
+.bell1 {
+    height: 40px;
+    width: auto;
+}
+
+.textvor {
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 20px;
+}
+.menu2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.men2tex {
+    display: flex;
+    flex-direction: row;
+}
+
+.bell {
+    display: inline-flex;
+}
+
+.whitepart {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
